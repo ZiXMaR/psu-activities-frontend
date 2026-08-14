@@ -3,7 +3,7 @@ interface Props {
     row?: number
 }
 
-export default function LoadingState({ label = 'กำลังโหดข้อมูล', row = 6} : Props) {
+export default function LoadingState({ label = 'กำลังโหดข้อมูล', rows = 6} : Props) {
     return (
         <div role="status" aria-live="polite" aria-label={label}>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
