@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ActivityListPage from './pages/ActivityListPage'
 import ActivityDetailPage from './pages/ActivityDetailPage'
+import RegisterPage from './pages/RegisterPage'
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<ActivityListPage />} />
           <Route path="/activities/:id" element={<ActivityDetailPage />} />
+          <Route path="/activities/:id/register" element={<RegisterPage />} />
         </Routes>
       </main>
       <Footer />

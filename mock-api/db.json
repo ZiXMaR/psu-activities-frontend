@@ -161,5 +161,16 @@
       "imageUrl": "https://picsum.photos/seed/act16/640/360"
     }
   ],
-  "registrations": []
+  "registrations": [
+    {
+      "fullName": "อาร์ม มาเทส",
+      "studentId": "6410210162",
+      "faculty": "วิทยาศาสตร์",
+      "email": "abc@gmail.com",
+      "phone": "0620076374",
+      "consent": true,
+      "activityId": 1,
+      "id": 1
+    }
+  ]
 }
