@@ -1,0 +1,12 @@
+{
+  "name": "psu-activities-mock-api",
+  "version": "1.0.0",
+  "description": "Mock REST API สำหรับข้อสอบภาคปฏิบัติ ตำแหน่งนักวิชาการศึกษา (Front-end) - เว็บกิจกรรมพัฒนานักศึกษา",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
