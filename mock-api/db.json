@@ -171,6 +171,16 @@
       "consent": true,
       "activityId": 1,
       "id": 1
+    },
+    {
+      "fullName": "มาเทส อาร์ม",
+      "studentId": "6410210126",
+      "faculty": "วิทยาศาสตร์",
+      "email": "123@gmail.com",
+      "phone": "0987654321",
+      "consent": true,
+      "activityId": 1,
+      "id": 2
     }
   ]
 }
